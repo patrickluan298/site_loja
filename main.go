@@ -8,6 +8,6 @@ import (
 )
 
 func main() {
-	routes.HandleRequest()
+	routes.HandleRoutes()
 	http.ListenAndServe(":8000", nil)
 }
